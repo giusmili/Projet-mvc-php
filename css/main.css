@@ -1,4 +1,6 @@
-/* theme css */
+/*==========================
+  RESET CSS
+==========================*/
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 
@@ -12,6 +14,9 @@ ul,
 ol {
   list-style-type: none;
 }
+/*==========================
+  THEME CSS
+==========================*/
 
 header * {
   line-height: 6.5rem;
