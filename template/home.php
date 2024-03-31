@@ -2,7 +2,7 @@
 <body>
 
 <header> 
-    <h1>🚀 Developer blog</h1>
+    <h1>🚀 <?= "Publication des $_title"?></h1>
 </header>
     <main>
 

@@ -1,3 +1,6 @@
+<?php
+    $_title = "articles du blog";
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
