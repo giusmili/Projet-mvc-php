@@ -1,7 +1,8 @@
 
 <body>
-
+<?php ob_start(); ?>
 <header> 
+
     <h1>🚀 <?= "Publication des $_title"?></h1>
 </header>
     <main>
@@ -31,7 +32,8 @@
             <?php
             } // The end of the posts loop.
             ?>
-         
+         <?php $content = ob_get_clean(); ?>
+         <?= $content ?>
        
     </main>
 </body>
