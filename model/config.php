@@ -1,8 +1,6 @@
 <?php
         # schéma vers la bdd
 
-    
-
     try {
         $database = new PDO('mysql:host=localhost;dbname=blogs;charset=utf8', 'root', '');
     } 
